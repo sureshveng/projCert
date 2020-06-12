@@ -1,5 +1,5 @@
 FROM devopsedu/webapp
-Maintainer "Suresh k"
+Maintainer "Suresh"
 ADD website /var/www/html
 RUN rm /var/www/html/index.html
 EXPOSE 8080
